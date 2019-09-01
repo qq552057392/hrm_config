@@ -7,6 +7,8 @@ zuul:
   routes:
     sysmanage.serviceId: hrm-sysmanage
     sysmanage.path: /sysmanage/** 
+     sysmanage.serviceId: hrm-course
+    sysmanage.path: /course/** 
   ignored-services: "*" 
   prefix: "/services" 
   retryable: true 
