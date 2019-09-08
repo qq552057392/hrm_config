@@ -9,6 +9,8 @@ zuul:
     sysmanage.path: /sysmanage/** 
     course.serviceId: hrm-course
     course.path: /course/** 
+    page.serviceId: hrm-page
+    page.path: /page/** 
   ignored-services: "*" 
   prefix: "/services" 
   retryable: true 
